@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("neon.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 150vh;
+}
+
+.menu ul
+{
+	float:right;
+	margin:20px 20px 0px 0px;
+
+
+}
+
+.menu ul li
+{
+	display: inline-block;
+	margin:0px 5px;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: orange;
+	
+	padding:7px 15px;
+	
+	font-weight: bold;
+
+}
+
+.logo img
+{
+	float: left;
+	width:auto;
+	height:auto;
+}
+
+.menu ul li a:hover
+{
+	color:white;
+	background-color: orange;
+}
+
+.logo img
+{
+	margin-left:20px;
+	position: absolute;
+	margin-top:0px;
+	padding-top: 0px;
+	
+}
+
+.intro 
+{
+	position: absolute;
+	top:55%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:white;
+	
+}
+
+.intro .titlee h1
+{
+	font-family: arial;
+	font-size: 42px;
+
+}
+
+.intro .button ul
+{
+	margin-top: 15px;
+}
+
+.intro .button ul li
+{
+    display: inline-block;
+    border:2px double orange;
+    padding:10px 0px;
+    margin: 0px 10px;
+
+}
+
+.intro .button ul li a
+{
+	color:orange;
+	text-decoration: none;
+	padding:10px 20px;
+	margin:0px;
+	padding:10px 30px;
+	font-weight: bold;
+}
+
+.intro .button ul li a:hover
+{
+	color:white;
+	background: orange;
+	transition: 0.5s ease;
+}
+
+table
+{
+	color:white;
+	position: absolute;
+	top:120%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 800px;
+	
+	
+}
+th{
+	text-align: left;
+}
+
+table, td, th
+{
+	border: 1px solid orange;
+	border-collapse: collapse;
+	
+}
+
+th,td
+{
+	padding: 7px;
+}
+
+th{
+	background-color: orange;
+}
+
+
+}
